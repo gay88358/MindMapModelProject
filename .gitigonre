@@ -1,4 +1,5 @@
 *.swp
 .~
 thumbs.db
+*.o
 
