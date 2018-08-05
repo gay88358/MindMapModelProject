@@ -92,7 +92,7 @@ void MindMapModel::undo() {
 }
 
 void MindMapModel::loadMindMap(string path) {
-    vector<string> mindMaps = _fileManager.readFile("mindMap.txt");
+    vector<string> mindMaps = _fileManager.readFile(path);
     vector<vector<string>> mindMaptokens;
     for (int i = 0; i < mindMaps.size(); i++) {
         string mindMapChip = mindMaps[i];
